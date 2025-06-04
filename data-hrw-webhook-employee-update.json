@@ -1,0 +1,118 @@
+{
+  "headers": {
+    "Akamai-Origin-Hop": "1",
+    "X-Rewrite-Url": "/anycross/trigger/callback/ZDUwZGEzYzQ5MzM2OGVmMzg2N2E3NmYyZjEzZGZlMTEw",
+    "Accept": "application/json,text/html,application/xhtml+xml,application/xml,text/*;q=0.9, image/*;q=0.8, */*;q=0.7",
+    "X-Forwarded-Protocol": "https",
+    "X-Forwarded-Proto": "https",
+    "User-Agent": "axios/1.8.2",
+    "Host": "open-sg.larksuite.com",
+    "Pragma": "no-cache",
+    "Accept-Encoding": "gzip",
+    "X-Tt-Logid": "202506040747474E215A9AD83855949C9E",
+    "Via": "1.1 akamai.net(ghost) (AkamaiGHost)",
+    "X-State-Geonameid": "1580578",
+    "X-Country-Geonameid": "1562822",
+    "Cache-Control": "no-cache, max-age=0",
+    "Cdn-Loop": "akamai;v=1.0;c=1",
+    "X-Tt-Trace-Id": "00-2506040747474E215A9AD83855949C9E-0C8DC8CB684A42FA-00",
+    "X-Forwarded-For": "61.14.233.20, 23.62.228.187,2605:340:cda1:1629:21e9:1b72:7b1b:ed8e",
+    "Content-Length": "1898",
+    "X-Akamai-Config-Log-Detail": "true",
+    "X-Real-Ip": "61.14.233.20",
+    "X-Pre-Backend": "lark.anycross.builtin_connector_web|default|prod|sgsaas1larkidc1",
+    "Content-Type": "application/json"
+  },
+  "path": "https://open-sg.larksuite.com/anycross/trigger/callback/ZDUwZGEzYzQ5MzM2OGVmMzg2N2E3NmYyZjEzZGZlMTEw",
+  "flow_key": "80b726016406c3a933a5efc5cbbd79ca",
+  "method": "POST",
+  "body_message": "{\"headers\":{\"connection\":\"close\",\"host\":\"automation.transform.vn\",\"content-length\":\"1436\",\"user-agent\":\"Haravan-WebHook\",\"x-haravan-hmacsha256\":\"AdHPz3ThD1gFEhfxOCVj7oH2BSDkZVKlsUx0TkxcY3k=\",\"x-haravan-org-id\":\"200000007016\",\"x-haravan-topic\":\"hrw/employee/updated\",\"x-haravan-id\":\"487935\",\"content-type\":\"application/json; charset=utf-8\"},\"params\":{},\"query\":{},\"body\":{\"employee\":{\"timestamp\":1749023267372,\"hara_id\":200002797986,\"type\":1,\"user_id\":\"S0157\",\"reference_id\":\"\",\"full_name\":\"LÊ BẢO HOA\",\"phone\":\"0502201825\",\"birthday\":\"92/10/28\",\"telegram\":null,\"main_position\":{\"jobtitle_id\":23199,\"department_id\":26927,\"status\":1,\"working_form_type\":1,\"working_type\":1,\"from_date\":\"2025-06-01T00:00:00\",\"created_at\":\"2025-06-04T14:47:41.676248\"},\"acting_positions\":[{\"jobtitle_id\":23177,\"department_id\":26891,\"to_date\":null,\"from_date\":\"2025-06-01T00:00:00\",\"sub_company_id\":157},{\"jobtitle_id\":23181,\"department_id\":26891,\"to_date\":null,\"from_date\":\"2025-06-02T00:00:00\",\"sub_company_id\":157}],\"working_histories\":[{\"jobtitle_id\":23199,\"department_id\":26969,\"status\":1,\"working_form_type\":1,\"working_type\":1,\"from_date\":\"2025-01-01T00:00:00\",\"created_at\":\"0001-01-01T07:00:00\"},{\"jobtitle_id\":23199,\"department_id\":26927,\"status\":1,\"working_form_type\":1,\"working_type\":1,\"from_date\":\"2025-06-01T00:00:00\",\"created_at\":\"0001-01-01T07:00:00\"}],\"start_working_date\":\"2025-01-01T00:00:00\",\"contracts\":[],\"metadatas\":null,\"email\":null,\"personal_email\":null,\"job_description\":null,\"id\":487935,\"org_id\":200000007016,\"sub_company_id\":157,\"created_at\":\"2025-04-01T10:15:24.546533Z\",\"updated_at\":\"2025-06-04T07:47:41.676252Z\",\"created_by\":200002788446,\"updated_by\":200002788446,\"created_date\":\"2025-04-01T10:15:24.546533\",\"is_created\":false,\"is_deleted\":false,\"is_system_deleted\":false,\"snapshot\":false}},\"webhookUrl\":\"https://automation.transform.vn/webhook/hrw-cellphone\",\"executionMode\":\"production\"}",
+  "query": {},
+  "body": {
+    "headers": {
+      "content-length": "1436",
+      "x-haravan-id": "487935",
+      "host": "automation.transform.vn",
+      "connection": "close",
+      "content-type": "application/json; charset=utf-8",
+      "x-haravan-hmacsha256": "AdHPz3ThD1gFEhfxOCVj7oH2BSDkZVKlsUx0TkxcY3k=",
+      "x-haravan-org-id": "200000007016",
+      "user-agent": "Haravan-WebHook",
+      "x-haravan-topic": "hrw/employee/updated"
+    },
+    "query": {},
+    "executionMode": "production",
+    "params": {},
+    "body": {
+      "employee": {
+        "birthday": "92/10/28",
+        "main_position": {
+          "working_type": 1,
+          "working_form_type": 1,
+          "from_date": "2025-06-01T00:00:00",
+          "department_id": 26927,
+          "created_at": "2025-06-04T14:47:41.676248",
+          "jobtitle_id": 23199,
+          "status": 1
+        },
+        "reference_id": "",
+        "created_at": "2025-04-01T10:15:24.546533Z",
+        "type": 1,
+        "contracts": [],
+        "acting_positions": [
+          {
+            "sub_company_id": 157,
+            "from_date": "2025-06-01T00:00:00",
+            "department_id": 26891,
+            "jobtitle_id": 23177
+          },
+          {
+            "sub_company_id": 157,
+            "from_date": "2025-06-02T00:00:00",
+            "department_id": 26891,
+            "jobtitle_id": 23181
+          }
+        ],
+        "is_system_deleted": false,
+        "hara_id": 200002797986,
+        "is_deleted": false,
+        "updated_at": "2025-06-04T07:47:41.676252Z",
+        "id": 487935,
+        "timestamp": 1749023267372,
+        "sub_company_id": 157,
+        "start_working_date": "2025-01-01T00:00:00",
+        "is_created": false,
+        "working_histories": [
+          {
+            "working_type": 1,
+            "working_form_type": 1,
+            "from_date": "2025-01-01T00:00:00",
+            "department_id": 26969,
+            "created_at": "0001-01-01T07:00:00",
+            "jobtitle_id": 23199,
+            "status": 1
+          },
+          {
+            "working_type": 1,
+            "working_form_type": 1,
+            "from_date": "2025-06-01T00:00:00",
+            "department_id": 26927,
+            "created_at": "0001-01-01T07:00:00",
+            "jobtitle_id": 23199,
+            "status": 1
+          }
+        ],
+        "created_by": 200002788446,
+        "full_name": "LÊ BẢO HOA",
+        "user_id": "S0157",
+        "phone": "0502201825",
+        "org_id": 200000007016,
+        "updated_by": 200002788446,
+        "created_date": "2025-04-01T10:15:24.546533",
+        "snapshot": false
+      }
+    },
+    "webhookUrl": "https://automation.transform.vn/webhook/hrw-cellphone"
+  },
+  "content_length": 1898
+}
